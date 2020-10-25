@@ -1,0 +1,228 @@
+.main-content {
+    overflow-y: auto;
+    height: 70vh;
+    text-align: left;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+    color: red;
+  }
+
+.wrap-title{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 15px;
+    
+}
+
+#vnt-main{
+    float: left;
+    width: 65%;
+    height: 95%;
+    padding-left: 15px;
+}
+
+
+.image-product{
+    width: 100%;
+    height: 30%;
+}
+.image-product img{
+    width: 100%;
+    height: 90%;
+}
+.box-tour{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.title{
+    height: 32px;
+    width: 100%;
+    border-bottom:solid 1px  rgba(0,0,0,.15);
+}
+
+.title-address{
+    height: 32px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    font-weight: bold;
+    border-bottom:solid 1px  rgba(0,0,0,.15);
+}
+
+.title span{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+    font-weight: bold;
+}
+td{
+    opacity: 0.75;
+}
+td.method{
+    width:30%;
+}
+.intro{
+    padding-top: 15px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+i.fa{
+    width: 45px;
+}
+.box-tour .content {
+    padding-top: 15px;
+}
+.location{
+    width: 160px;
+    padding-top: 15px;
+    font-weight: 700;
+    border-bottom: 1px solid #ccc;
+}
+#vnt-sidebar{
+    padding-left: 10px;
+    float: right;
+    width: 35%;
+    height: 50%;
+    padding-right: 10px;
+}
+
+.box-design{
+    border: solid 1px rgba(0,0,0,.15);
+    padding: 15px;
+    
+}
+.box-design .name{
+    padding-top: 5px ;
+    border-bottom: solid 1px rgba(0,0,0,.15);
+    width: 100%;
+    height:30%;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: royalblue;
+
+}
+.box-design .atr{
+    height: 70%;
+}
+.box-design .atr ul{
+    padding-top: 40px;
+}
+.box-design .atr ul li{
+    padding-top: 10px;
+    border-bottom: solid 1px rgba(0,0,0,.15);
+    padding-bottom: 10px;
+}
+.box-design .atr ul li:last-child{
+    border-bottom: none;
+    
+    
+}
+.box-design .atr ul li > .at{
+    float:left;
+    width: 100%;
+    font-weight: 700;
+}
+.box-design .atr ul li > .as{
+    
+    overflow: hidden;
+    
+}
+#slide-bar{
+    padding-top: 30px;
+    width: 100%;
+    height: 200px;
+}
+#slide-bar .boxFix{
+    background-color: #1B6BDA;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+}
+#slide-bar .boxFix .price{
+    font-weight: 700;
+    width: 100%;
+    height: 32%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+#slide-bar .boxFix .price .txt{
+    padding-left: 10px;
+    float: left;
+    height: 100%;
+    width: 25%;
+    padding-top: 4px;
+    font-size: 17px;
+}
+#slide-bar .boxFix .price .number{
+    height: 100%;
+    width: 75%;
+    float: right;
+    font-size: 23px;
+}
+#slide-bar .boxFix .dateStart{
+    padding-left: 10px;
+    height: 28%;
+    padding-right: 10px;
+
+}
+#slide-bar .boxFix .dateStart input{
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+#slide-bar .boxFix .btn_booking{
+    padding: 10px;
+    width: 100%;
+    height: 40%;
+}
+#slide-bar .boxFix .btn_booking button{
+    padding: 13px 10px 7px 10px;
+    width: 100%;
+    background-color: #E6830B;
+    border-radius: 5px;
+    border: none;
+    transition: all .3s linear;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    height: 90%;
+    cursor: pointer;
+}
+#slide-bar .boxFix .bnt_booking button:hover{
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+}
+ul{
+    list-style: none;
+}
+

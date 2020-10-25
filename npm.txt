@@ -1,0 +1,2 @@
+npm install node-sass
+npm install body-parser express dialogflow pusher dotenv node-fetch cors

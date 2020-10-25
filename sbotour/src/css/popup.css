@@ -1,0 +1,45 @@
+/* index.css */ 
+.modal {
+    font-size: 14px;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Rouge Script', cursive;
+    height: 40px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    margin: auto;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+    color: red;
+  }
+
+  .modal > .close:hover{
+      color: #fff;
+      background-color: red;
+      border: 1px solid orange;
+  }

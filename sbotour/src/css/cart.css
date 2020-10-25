@@ -1,0 +1,105 @@
+.pay-btn {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: var(--light);
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text);
+    background-size: 100% 100%;
+    box-shadow: 0 0 0 7px var(--light) inset;
+  }
+  
+  .pay-btn:hover {
+    background-image: linear-gradient(
+      145deg,
+      transparent 10%,
+      var(--dark) 10% 20%,
+      transparent 20% 30%,
+      var(--dark) 30% 40%,
+      transparent 40% 50%,
+      var(--dark) 50% 60%,
+      transparent 60% 70%,
+      var(--dark) 70% 80%,
+      transparent 80% 90%,
+      var(--dark) 90% 100%
+    );
+    animation: background 5s linear infinite;
+  }
+  
+  @keyframes background {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 400px 0;
+    }
+  }
+.cart {
+    text-align: left;
+    border: 1px solid greenyellow;
+    padding: 5px 15px 10px 20px;
+    margin-bottom: 15px;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.cart:hover {
+  border: 1px solid cyan;
+}
+
+.icon-close{
+    margin-top: -21px;
+    margin-left: 100%;
+    color: green;
+    font-size: 2em;
+}
+
+.icon-close:hover {
+    color: red;
+}
+
+.icon-add{
+    color: blue;
+    font-size: 2em;
+}
+
+.icon-add:hover {
+    color: green;
+}
+
+.cart-footer {
+    text-align: left;
+    padding: 10px 25px 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.footer-left{
+    width: 50%;
+    float: left;
+}
+
+.footer-right{
+    text-align: right;
+}
+
+.pay-btn{
+    height: 30px;
+    margin-top: 3px;
+    padding: 0 5px 0px 5px;
+    width: 20%;
+    margin-left: 80%;
+    text-align: center;
+}
+
+.total {
+    padding-right: 15px;
+}
+
+.list {
+  max-height: 60vh;
+  overflow-y: scroll;
+  padding: 20px;
+}

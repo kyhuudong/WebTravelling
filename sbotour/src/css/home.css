@@ -1,0 +1,67 @@
+html, body {
+  font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.fullname {
+  width: 25%;
+  height: 40px;
+  margin-left: 74%;
+  text-align: right;
+}
+.name{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  width: 70%;
+}
+.fa {
+    color: #0747a7;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.icon-user{
+  display:inline-block;
+  height: 40px;
+  font-size: 20px;
+}
+.icon-user i{
+  width: 20px;
+}
+i {
+  display:table-cell;
+  text-align:center;
+  vertical-align:middle;
+}
+.control-btn{
+  clear: left;
+  height: 5vh;
+  margin-left: 35%;
+  width: 70%;
+}
+.pre-next {
+  float: left;
+  width: 10vw;
+  height: 5vh;
+  margin-left: 1vw;
+  background-image: linear-gradient(to right, red,orange,yellow);
+  color: #000;
+  font-size: 15px;
+}
+.pre{
+  background-image: linear-gradient(to right,yellow, orange, red);
+}
+.pre-next:hover {
+  transition: 1s;
+  background-image: linear-gradient(to right, green,blue,indigo);
+  color: #fff;
+}
